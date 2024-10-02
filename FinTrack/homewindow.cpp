@@ -23,7 +23,7 @@ HomeWindow::~HomeWindow()
 
 bool HomeWindow::connectToDatabase()
 {
-    QString databasePath = "/Users/murodali/Projects/FinTrack/finance_management.db";
+    QString databasePath = "/Users/Bakha/Projects/FinTrack/finance_management.db";
     db = QSqlDatabase::addDatabase("QSQLITE");
     db.setDatabaseName(databasePath);
 
